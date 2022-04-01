@@ -1,0 +1,18 @@
+{
+    "name": "ccronexpr",
+    "keywords": "cron",
+    "description": "An Arduino library for parsing cron expressions in ANSI C.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/homewire-io/ccronexpr.git"
+    },
+    "version": "1.0",
+    "exclude": "tests",
+    "examples": "examples/*/*.ino",
+    "frameworks": "arduino",
+    "platforms": [
+        "atmelavr",
+        "espressif8266",
+        "espressif32"
+    ]
+}
